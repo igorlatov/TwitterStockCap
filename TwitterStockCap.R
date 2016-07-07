@@ -81,6 +81,5 @@ search <- function(searchterm)
     ggtitle(searchterm)
   ggsave(file=paste(searchterm, '_plot.jpeg'))
 }
-search("epam")
-
+search("$EPAM")
 
